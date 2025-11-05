@@ -14,7 +14,12 @@ release = '1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+
+extensions = [
+    'nbsphinx',        # for Jupyter notebooks
+    'sphinx_rtd_theme' # for nice styling
+]
+
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']

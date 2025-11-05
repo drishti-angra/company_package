@@ -10,10 +10,10 @@ Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
 documentation for details.
 
-
 .. toctree::
-   :caption: Lectures
    :maxdepth: 2
-   :numbered:
+   :caption: Contents:
 
    lectures/notebook
+   lectures/intro
+
