@@ -12,6 +12,8 @@ documentation for details.
 
 
 .. toctree::
+   :caption: Lectures
    :maxdepth: 2
-   :caption: Contents:
+   :numbered:
 
+   lectures/notebook
