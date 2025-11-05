@@ -1,0 +1,20 @@
+# .readthedocs.yml
+# Read the Docs configuration file
+# See: https://docs.readthedocs.io/en/stable/config-file/v2.html
+
+version: 2  # required
+
+# Tell RTD how to build the docs
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+
+# Where the Sphinx configuration file lives
+sphinx:
+  configuration: docs/source/conf.py
+
+# Install dependencies needed to build the docs
+python:
+  install:
+    - requirements: docs/requirements.txt

@@ -1,5 +1,5 @@
 import yfinance as yf
-import pandas as pd
+import pandas as pd 
 
 # this file explains what a Python class is
 
@@ -41,7 +41,7 @@ class Company:
             except Exception as e:
                 print(f"Error checking ticker {self.ticker}: {e}")
         
-        return "Not available on yfinance"
+        return "Not available on yfinance" 
 
 
     def get_stock_info(self, period="1y"):
